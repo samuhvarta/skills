@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (skill scripts, local CLI runs)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python (skill scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Skills installed locally by agents or `npx skills add` while testing
+.agents/
+.claude/
+.cursor/
+.codex/
+.github/skills/
+skills-lock.json
+
+# Build output and scratch
+dist/
+build/
+tmp/
+*.log
