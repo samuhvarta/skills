@@ -6,7 +6,11 @@ argument-hint: "Topic to explain or document to write"
 
 # Tech Writer
 
-Produce writing that a reader can parse fast: controlled prose about 80% of the way to ASD-STE100. Each document also gets diagrams. The default output format is Markdown. HTML is an alternative that the user must choose.
+Produce writing that a reader can parse fast: controlled prose about 80% of the way to ASD-STE100. Each document also gets diagrams. 
+The output must use fewer metaphors and flourish, use direct statements instead. Dont produce em-dashes. 
+Use fewer superlatives. 
+
+The default output format is Markdown. HTML is an alternative that the user must choose.
 
 For a short answer in chat (no document), apply only step 3. Diagrams and the format question apply to documents only.
 
