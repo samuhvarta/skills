@@ -1,9 +1,27 @@
 # ASD-STE100 rules
 
-ASD-STE100 (Simplified Technical English) is a controlled language. It was made for aerospace maintenance documents. The full specification is very strict. Write about 80% of the way to it: apply the **hard** rules always, and the **soft** rules where they do not make the text less natural. Apply these rules to all prose, list items, table cells, and diagram labels.
+ASD-STE100 (Simplified Technical English) is a controlled language. It was made for aerospace maintenance documents. The user chooses one of two levels. Apply these rules to all prose, list items, table cells, and diagram labels.
 
 - **Hard:** all rules in [Sentences](#sentences) and [Structure](#structure); one name for one thing; no contractions; noun clusters of three words or less.
-- **Soft:** all other rules in [Words](#words). Prefer the STE form. Use a common "-ing" form, phrasal verb, or second meaning of a word if the STE form is clumsy.
+- **Soft:** all other rules in [Words](#words).
+
+## Levels
+
+**Strict conformance**
+
+- Apply as much of the specification as possible. Treat the soft rules as hard rules.
+- Use only approved words, with their approved meaning and part of speech. Use technical names as they are. If no approved word fits, use the simplest word and keep it the same through the document.
+- Do not use "-ing" forms (except technical names), phrasal verbs, or contractions.
+- Keep to the sentence and paragraph limits. Write one instruction per sentence.
+- Do not combine sentences to make the text shorter. Short sentences are correct in this level.
+- Use the active voice and simple tenses everywhere. Use articles and demonstratives before nouns.
+
+**Optimize for brevity**
+
+- Apply the hard rules always. Apply the soft rules where they do not make the text less natural. Use a common "-ing" form, phrasal verb, or second meaning of a word if the STE form is clumsy.
+- Combine two short sentences that carry sparse ideas into one sentence. Keep the result inside the sentence length limits and keep one instruction per sentence.
+- Example: "ABC is a new product. ABC is hosted on the XYZ platform." becomes "ABC is a new product hosted on the XYZ platform."
+- Do not combine sentences when the result has more than one topic, breaks a length limit, or hides a condition.
 
 ## Words
 
@@ -45,4 +63,9 @@ Each sentence passes when all answers to the hard questions are "yes":
 5. Are noun clusters three words or less?
 6. Is each thing called by the same name as in the rest of the document?
 
-Soft question: does each word have one meaning, with few "-ing" forms and phrasal verbs? A "no" is acceptable only when the STE form is clumsy.
+Soft question: does each word have one meaning, with few "-ing" forms and phrasal verbs?
+
+- In **strict conformance**, treat the soft question as hard. A "no" is not acceptable.
+- In **optimize for brevity**, a "no" is acceptable only when the STE form is clumsy.
+
+Style questions (both levels): does the text have no metaphor, no em dash, and no superlative without evidence?
