@@ -22,6 +22,7 @@ npx skills@latest add samuhvarta/skills --skill tech-writer -g
 | Skill | Description |
 |---|---|
 | [tech-writer](./skills/tech-writer/SKILL.md) | Writes explanations and documents in ASD-STE100 Simplified Technical English, with Mermaid diagrams. Output is Markdown by default, or interactive HTML on request. |
+| [project-name-generator](./skills/project-name-generator/SKILL.md) | Generates project names based on short description |
 
 ## Add a skill
 

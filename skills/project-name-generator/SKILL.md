@@ -1,6 +1,7 @@
 ---
 name: project-name-generator
 description: Generate catchy, short, professional names for a software project, service, library or tool from a short description (language, functionality, workload, workflow, domain). Use when the user asks for a project name, repo name, product name, codename, or help naming something they are building.
+model: claude-haiku-5-5
 ---
 
 # Project Name Generator
